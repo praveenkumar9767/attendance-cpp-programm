@@ -1,0 +1,24 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int num;
+    cout<< " enter your class attendance"<< endl;
+    cin>> num;
+
+    if(num>75){
+        cout<<"yes you are allow to sit in examination "<< endl;
+    }
+    else if (num<75) {
+        cout <<" your attendance is less than 75 so your are not sit in this examiniation"<< endl;
+    }
+    else{
+        cout<< "enter your valid numbers"<< endl;
+    }
+
+    
+
+    }    
+
+
+//https://github.com/praveenkumar9767//
